@@ -117,10 +117,20 @@ Instead, console.log your whole backPack object and then check out the console. 
 //Create an Object called 'album' with 5 keys named different song titles that you make up, with the values being the length of each song.
 
   //Code Here
+  var album = {
+    'Give it up, Joe': '3:14',
+    'Relax, Max': '2:56',
+    'All is well': '4:42',
+    'Get out of town': '2:22',
+    'Join the circus': '5:00'
+  };
 
 //Now, loop through your album object alerting every song title individually.
 
   //Code Here
+  for (var prop in album) {
+    alert(prop);
+  }
 
 
 
